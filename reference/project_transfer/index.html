@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../members/">
+        <link rel="prev" href="../tags_protection/">
       
       
-        <link rel="next" href="../pipeline_schedules/">
+        <link rel="next" href="../webhooks/">
       
       
       <link rel="icon" href="../../gitlabform-logo-favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Merge Requests - GitLabForm</title>
+        <title>Transfer - GitLabForm</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#merge-requests" class="md-skip">
+        <a href="#transfer-a-resource" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Merge Requests
+              Transfer
             
           </span>
         </div>
@@ -604,30 +604,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Merge Requests
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../merge_requests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -636,53 +616,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Configuration
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rules" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rules
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -818,10 +751,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../project_transfer/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Transfer
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -830,6 +783,83 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project transfer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Project transfer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transfer-as-new-project-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer as new project path
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer-and-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer and update
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer-and-archive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer and archive
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1140,29 +1170,59 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
+  <a href="#project-transfer" class="md-nav__link">
     <span class="md-ellipsis">
-      Configuration
+      Project transfer
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rules" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rules
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Project transfer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#examples" class="md-nav__link">
     <span class="md-ellipsis">
       Examples
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transfer-as-new-project-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer as new project path
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer-and-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer and update
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer-and-archive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer and archive
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1184,114 +1244,69 @@
   
 
 
-<h1 id="merge-requests">Merge Requests<a class="headerlink" href="#merge-requests" title="Permanent link">&para;</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>This section requires GitLab Premium (paid). (This is a GitLab's limitation, not GitLabForm's.)</p>
+<h1 id="transfer-a-resource">Transfer a resource<a class="headerlink" href="#transfer-a-resource" title="Permanent link">&para;</a></h1>
+<h2 id="project-transfer">Project transfer<a class="headerlink" href="#project-transfer" title="Permanent link">&para;</a></h2>
+<p>This section describes <a href="https://docs.gitlab.com/ee/user/project/settings/index.html#transfer-a-project-to-another-namespace">transferring a project</a> to another group or namespace.</p>
+<p>Gitlabform supports <code>transfer_from</code> key under <code>project</code> map. Set the value to full path of the project including namespaces that needs to be transferred. See examples below.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Please note that Gitlab has specific requirements for project transfer. For example the user that runs gitlabform needs to be an owner of the project that will be transferred. See above docs referrence for detailed lists of prerequisites.</p>
 </div>
-<div class="admonition new">
-<p class="admonition-title">New</p>
-<p>The syntax described below has been introduced in v3.4.0 of GitLabForm. The old syntax, that used to be documented here,
-will still supported until the release of v4.* of GitLabForm, but is deprecated and you should migrate to the new one.</p>
-</div>
-<p>These sections' purpose is to manage the project-Level Merge Requests <strong>configuration</strong> and <strong>rules</strong>.</p>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
-<p>The section <code>merge_requests_approvals</code> keys are as documented at GitLab's <a href="https://docs.gitlab.com/ee/api/merge_request_approvals.html#change-configuration">project-level Merge Request approvals API, change configuration</a>.</p>
-<p>Note that under it the deprecated key <code>approvals_before_merge</code> is NOT allowed in GitLabForm - please use the <code>approvals_required</code> field in the specific rules instead (see below.)</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Some Merge Requests-related settings are also set in the <a href="../settings/#project-settings">project settings</a>.</p>
-</div>
-<h2 id="rules">Rules<a class="headerlink" href="#rules" title="Permanent link">&para;</a></h2>
-<p>In the <code>merge_requests_approval_rules</code> section, key names are just any labels, except if the key name is <code>enforce</code> and is set to <code>true</code> - then only the rules defined here will remain in the project, all other will be deleted.</p>
-<p>Under each key the contents are as documented at GitLab's <a href="https://docs.gitlab.com/ee/api/merge_request_approvals.html#create-project-level-rule">project-level Merge Request approvals API, create project-level rule</a>, but additionally, you may use these keys:</p>
-<ul>
-<li><code>users</code> - an array of usernames,</li>
-<li><code>groups</code> - an array of group/subgroup paths,</li>
-<li><code>protected_branches</code> - an array of branch names.</li>
-</ul>
-<p>...instead of the built-in keys <code>user_ids</code>, <code>group_ids</code>, <code>protected_branch_ids</code> which require you to provide the internal ids of these entities. </p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>If any of the users or groups is not a member of the project, they cannot be approvers.
-However GitLab will NOT fail with an error in such case - it's will silently ignore these users and groups.
-This is GitLab's limitation, not GitLabForm's.</p>
-</div>
-<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
-<p>Example 1 - a single approval rule where all the project members can approve, but no approval is required to merged the MR.</p>
-<p>Note that <code>rule_type: any_approver</code> field makes it a special kind of rule where you don't have to reference specific users or groups. Also note that you can combine it with any number in <code>approvals_required</code> and any <code>name</code>.</p>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h3>
+<p>In the example below, <code>group_2/project_1</code> project is configured to be transferred to <code>group_1</code> namespace.</p>
 <div class="highlight"><pre><span></span><code><span class="nt">projects_and_groups</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">group_1/project_1</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">merge_requests_approvals</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">disable_overriding_approvers_per_merge_request</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">    </span><span class="nt">merge_requests_approval_rules</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">any</span><span class="p">:</span><span class="w"> </span><span class="c1"># this is just a label</span>
-<span class="w">        </span><span class="nt">approvals_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
-<span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Any</span><span class="nv"> </span><span class="s">member&quot;</span>
-<span class="w">        </span><span class="nt">rule_type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">any_approver</span>
-<span class="w">      </span><span class="nt">enforce</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">    </span><span class="nt">project</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">transfer_from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">group_2/project_1</span>
 </code></pre></div>
-<p>Example 2 - a single approval rule that requires at least 2 approval from the following approvers: <code>user1</code>, <code>user2</code> and/or the members of the group <code>my-group</code> who will be called "Special approvers" in the GitLab's web UI:</p>
+<p>In subsequent runs of gitlabform, the transfer config will not take place because <code>group_1/project_1</code> already exists. Transfers can be done from subgroup or another root group/namespace too.</p>
 <div class="highlight"><pre><span></span><code><span class="nt">projects_and_groups</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">group_1/project_1</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">merge_requests_approvals</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">disable_overriding_approvers_per_merge_request</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">    </span><span class="nt">merge_requests_approval_rules</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="c1"># this is just a label</span>
-<span class="w">        </span><span class="nt">approvals_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2</span>
-<span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Special</span><span class="nv"> </span><span class="s">approvers&quot;</span>
-<span class="w">        </span><span class="nt">users</span><span class="p">:</span>
-<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">user1</span>
-<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">user2</span>
-<span class="w">        </span><span class="nt">groups</span><span class="p">:</span>
-<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my-group</span>
-<span class="w">      </span><span class="nt">enforce</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">  </span><span class="nt">group_1/foo/project_1</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">project</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">transfer_from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">group_1/project_1</span>
+
+<span class="w">  </span><span class="nt">group_1/project_2</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">project</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">transfer_from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">group_1/bar/project_2</span>
 </code></pre></div>
-<p>Example 3 - two approval rules:</p>
-<ul>
-<li>one that requires at least 1 approval from any member of the <code>security-team</code> group, who will be called "Security Team" in the GitLab's web UI,</li>
-<li>second that requires at least 1 approval from any of the project members, who will be called "Any member" in the GitLab's web UI.</li>
-</ul>
+<h4 id="transfer-as-new-project-path">Transfer as new project path<a class="headerlink" href="#transfer-as-new-project-path" title="Permanent link">&para;</a></h4>
+<p>It's also possible to change the project's path at the new location. In the example below, <code>project_1</code> path will be updated to <code>project_2</code> first and then transfer the project from the source group/namespace.</p>
 <div class="highlight"><pre><span></span><code><span class="nt">projects_and_groups</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">group_1/project_1</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">merge_requests_approvals</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">disable_overriding_approvers_per_merge_request</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">    </span><span class="nt">merge_requests_approval_rules</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">security</span><span class="p">:</span><span class="w"> </span><span class="c1"># this is just a label</span>
-<span class="w">        </span><span class="nt">approvals_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
-<span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Security</span><span class="nv"> </span><span class="s">Team&quot;</span>
-<span class="w">        </span><span class="nt">groups</span><span class="p">:</span>
-<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">security-team</span>
-<span class="w">      </span><span class="nt">any</span><span class="p">:</span><span class="w"> </span><span class="c1"># this is just a label</span>
-<span class="w">        </span><span class="nt">approvals_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
-<span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Any</span><span class="nv"> </span><span class="s">member&quot;</span>
-<span class="w">        </span><span class="nt">rule_type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">any_approver</span>
-<span class="w">      </span><span class="nt">enforce</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">  </span><span class="nt">group_1/project_2</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">project</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">transfer_from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">group_2/project_1</span>
 </code></pre></div>
-<p>Example 4 - two approval rules:</p>
-<ul>
-<li>one that requires at least 1 approval from <code>senior-sre-1</code> and/or <code>senior-sre-2</code>, who will be called "Senior SRE" in the GitLab's web UI, but this rule will apply only to MRs to the protected branches <code>production</code> and <code>staging</code>,</li>
-<li>second that requires at least 1 approval from any of the project members, who will be called "Any member" in the GitLab's web UI.</li>
-</ul>
+<p>Note that if <code>group_1</code> already contains a project with a path <code>project_2</code>, the transfer will not take place.</p>
+<h4 id="transfer-and-update">Transfer and update<a class="headerlink" href="#transfer-and-update" title="Permanent link">&para;</a></h4>
+<p>Gitlabform processes different sections of a project's config in specific order. The <code>project</code> map/section is processed first. So, it's possible to transfer a project from another namespace first and then update that project according to the config.</p>
 <div class="highlight"><pre><span></span><code><span class="nt">projects_and_groups</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">group_1/project_1</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">merge_requests_approvals</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">disable_overriding_approvers_per_merge_request</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">    </span><span class="nt">merge_requests_approval_rules</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">senior</span><span class="p">:</span><span class="w"> </span><span class="c1"># this is just a label</span>
-<span class="w">        </span><span class="nt">approvals_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
-<span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Senior</span><span class="nv"> </span><span class="s">SRE&quot;</span>
-<span class="w">        </span><span class="nt">users</span><span class="p">:</span>
-<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">senior-sre-1</span>
-<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">senior-sre-2</span>
-<span class="w">        </span><span class="nt">protected_branches</span><span class="p">:</span>
-<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">production</span>
-<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">staging</span>
-<span class="w">      </span><span class="nt">any</span><span class="p">:</span><span class="w"> </span><span class="c1"># this is just a label</span>
-<span class="w">        </span><span class="nt">approvals_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
-<span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Any</span><span class="nv"> </span><span class="s">member&quot;</span>
-<span class="w">        </span><span class="nt">rule_type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">any_approver</span>
-<span class="w">      </span><span class="nt">enforce</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">    </span><span class="nt">project</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">transfer_from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">group_2/project_1</span>
+<span class="w">    </span><span class="nt">project_settings</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hello world!</span>
+<span class="w">      </span><span class="c1"># other project settings can be here</span>
+<span class="w">    </span><span class="nt">branches</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">main</span><span class="p">:</span>
+<span class="w">        </span><span class="nt">protected</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">        </span><span class="c1"># other branch protection settings can be here</span>
+</code></pre></div>
+<p>In the above example, <code>project_1</code> will be transferred from <code>group_2</code> to <code>group_1</code> first and then it will be updated according to rest of the configs.</p>
+<h4 id="transfer-and-archive">Transfer and archive<a class="headerlink" href="#transfer-and-archive" title="Permanent link">&para;</a></h4>
+<p>Within the <code>project</code> map of a project's config, gitlabform processes <code>transfer_from</code> first. This gives additional flexibility.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">projects_and_groups</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">group_1/project_1</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">project</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">archive</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">      </span><span class="nt">transfer_from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">group_2/project_1</span>
+</code></pre></div>
+<p>In the above example, the project will be transferred first and then it will be archived at the new location.</p>
+<p>Also, Gitlab allows transferring a project or updating its path that is already archived. In the following example, if <code>group_2/project_1</code> is already archived, gitlabform will transfer the project to <code>group_1/foo-bar</code> and then unarchive it. Note that the project's path is changed from <code>project_1</code> to <code>foo-bar</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">projects_and_groups</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">group_1/foo-bar</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">project</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">archive</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">      </span><span class="nt">transfer_from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">group_2/project_1</span>
 </code></pre></div>
 
 
