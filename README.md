@@ -7,6 +7,7 @@
 
 <img src="https://raw.githubusercontent.com/gitlabform/gitlabform/main/docs/images/gitlabform-logo.png" width="600px" alt="logo">
 
+
 🏗 GitLabForm is a specialized configuration as a code tool for GitLab:
 
 * application settings,
